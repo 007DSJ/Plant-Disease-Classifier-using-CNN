@@ -48,26 +48,6 @@ def calculate_accuracy(predictions, true_labels):
     accuracy = correct / total * 100 if total > 0 else 0
     return accuracy
 
-# Variables to track predictions
-stats_file = f"{working_dir}/prediction_stats.json"
-
-def load_prediction_stats():
-    if os.path.exists(stats_file):
-        with open(stats_file, 'r') as file:
-            return json.load(file)
-    return {"correct_predictions": 0, "total_predictions": 0}
-
-def save_prediction_stats(correct_predictions, total_predictions):
-    with open(stats_file, 'w') as file:
-        json.dump({"correct_predictions": correct_predictions, "total_predictions": total_predictions}, file)
-
-prediction_stats = load_prediction_stats()
-
-def update_prediction_stats(prediction, true_label):
-    prediction_stats["total_predictions"] += 1
-    if prediction == true_label:
-        prediction_stats["correct_predictions"] += 1
-    save_prediction_stats(prediction_stats["correct_predictions"], prediction_stats["total_predictions"])
 
 def scrape_google_search(query):
     options = Options()
@@ -139,7 +119,6 @@ if uploaded_image is not None:
         # Preprocess the uploaded image and predict the class
         prediction = predict_image_class(model, uploaded_image, class_indices)
         true_label = uploaded_image.name.split('.')[0]  # Assuming the filename contains the true label
-        update_prediction_stats(prediction, true_label)
         st.success(f'Prediction: {str(prediction)}')
 
         # Fetch information from Google search
