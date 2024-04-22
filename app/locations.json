@@ -1,0 +1,75 @@
+{
+    "Tomato": [
+        {"latitude": 22.750000, "longitude": 72.680000},
+        {"latitude": 20.000000, "longitude": 73.783330},
+        {"latitude": 22.057564, "longitude": 78.939401}
+    ],
+    "Carrot": [
+        {"latitude": 41.8781, "longitude": -87.6298},
+        {"latitude": 33.7490, "longitude": -84.3880}
+    ],
+    "Apple": [
+        {"latitude":31.583330, "longitude": 78.416660},
+        {"latitude":34.209409, "longitude": 74.778236},
+        {"latitude":29.620000, "longitude": 79.670000}
+    ],
+    "Blueberry": [
+        {"latitude":30.333627, "longitude": 78.029945},
+        {"latitude":31.747427, "longitude": 76.884589},
+        {"latitude":34.116309, "longitude": 74.742129}
+    ],
+    "Cherry": [
+        {"latitude":34.058873, "longitude": 74.373999},
+        {"latitude":31.102365, "longitude": 77.170256},
+        {"latitude":30.150000, "longitude": 78.775280}
+    ],
+    "Corn": [
+        {"latitude":28.988172, "longitude": 77.668533},
+        {"latitude":22.048533, "longitude": 78.944321},
+        {"latitude":25.256822, "longitude": 86.969453}
+    ],
+    "Grape": [
+        {"latitude":15.857594, "longitude": 74.483991},
+        {"latitude":17.698071, "longitude": 73.930283},
+        {"latitude":9.983959, "longitude":  77.474112}
+    ],
+    "Orange": [
+        {"latitude":21.149373, "longitude": 79.060644},
+        {"latitude":21.674422, "longitude": 78.515064},
+        {"latitude":26.438615, "longitude": 92.668183}
+    ],
+    "Peach": [
+        {"latitude":30.936231, "longitude": 75.796141},
+        {"latitude":32.500000, "longitude": 77.600000},
+        {"latitude":33.733432, "longitude": 75.151548}
+    ],
+    "Pepper": [
+        {"latitude":12.396509, "longitude": 75.775125},
+        {"latitude":9.832935, "longitude": 76.925776},
+        {"latitude":11.452675, "longitude": 77.637484}
+    ],
+    "Potato": [
+        {"latitude":25.220803, "longitude": 85.481967},
+        {"latitude":28.729611, "longitude": 77.853919},
+        {"latitude":23.248943, "longitude": 87.812726}
+    ],
+    "Raspberry": [
+        {"latitude":27.530292, "longitude": 88.500909},
+        {"latitude":31.306383, "longitude": 76.788235}
+    ],
+    "Soybean": [
+        {"latitude":22.048853, "longitude": 78.950074},
+        {"latitude":24.868063, "longitude": 74.588566}
+    ],
+    "Squash": [
+        {"latitude":30.206535, "longitude": 74.867454},
+        {"latitude":29.507018, "longitude": 75.427441}
+    ],
+    "Strawberry": [
+        {"latitude":24.221726, "longitude": 92.672338},
+        {"latitude":25.920243, "longitude": 91.869065},
+        {"latitude":17.913636, "longitude": 73.632471}
+    ]
+
+    
+}
