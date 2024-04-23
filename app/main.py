@@ -56,7 +56,7 @@ def scrape_google_search(query):
     options.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(options=options)
     
-    url = f"https://www.google.com/search?q={query}-benefits"
+    url = f"https://www.google.com/search?q={query}-soil-health-India"
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, "html.parser")
     search_results = []
